@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{#{% load comments_extras %}#}
+{% load comments_extras %}
 
 {% block main %}
   <article class="post post-{{ post.pk }}">
@@ -16,6 +16,7 @@
     </header>
     <div class="entry-content clearfix">
       {{ post.body_html|safe }}
+{#      {{ post.body|safe }}#}
     </div>
   </article>
   <section class="comment-area" id="comment-area">
