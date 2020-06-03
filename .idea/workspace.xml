@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1cfbf0-8de0-4451-8375-41d40a6e8230" name="Default" comment="首次" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="2c1cfbf0-8de0-4451-8375-41d40a6e8230" name="Default" comment="首次">
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0002_auto_20200603_1428.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0003_auto_20200603_1751.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templatetags/blog_extras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/templatetags/comments_extras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comments/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_archives.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_recent_posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/inclusions/_tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/comments/inclusions/_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/comments/inclusions/_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/comments/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/883c92ef-fc3d-4ffd-8941-06060392ee19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/883c92ef-fc3d-4ffd-8941-06060392ee19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djangorestful.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangorestful.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,8 +74,8 @@
     </expand>
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,82 +85,28 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>main</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/djangorestful/urls.py" />
-        <option value="$PROJECT_DIR$/blog/apps.py" />
-        <option value="$PROJECT_DIR$/djangorestful/settings.py" />
-        <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/blog/index.html" />
-        <option value="$PROJECT_DIR$/blog/models.py" />
-        <option value="$PROJECT_DIR$/templates/blog/detail.html" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1cmplCWIb8S7dQVjZpGSYf6XAoy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="698" />
-    <option name="y" value="45" />
-    <option name="width" value="912" />
-    <option name="height" value="787" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="djangorestful" type="b2602c69:ProjectViewProjectNode" />
-              <item name="djangorestful" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../练习/clone/OA--master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="djangorestful" type="Python.DjangoServer" factoryName="Django server">
@@ -136,20 +117,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="djangorestful.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\py\venv\djangorestframework\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -162,153 +144,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591103596689</updated>
+      <workItem from="1591143773067" duration="10766000" />
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="698" y="45" width="912" height="787" extended-state="0" />
-    <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4329738" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21450618" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586855" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3298122" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/djangorestful/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="e#637#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangorestful/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#main#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$0/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#main#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="159" column="14" lean-forward="true" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
-          <folding>
-            <element signature="e#70#75#0#HTML" expanded="true" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1104#1109#0#HTML" expanded="true" />
-            <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#aside#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#aside#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#aside#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#aside#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="506" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591143841374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="506" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591143841374" />
+    <state width="939" height="158" key="GridCell.Tab.0.bottom" timestamp="1591177929754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="939" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591177929754" />
+    <state width="939" height="158" key="GridCell.Tab.0.center" timestamp="1591177929754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="939" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591177929754" />
+    <state width="939" height="158" key="GridCell.Tab.0.left" timestamp="1591177929754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="939" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591177929754" />
+    <state width="939" height="158" key="GridCell.Tab.0.right" timestamp="1591177929754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="939" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591177929754" />
+    <state x="598" y="174" key="SettingsEditor" timestamp="1591143829543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="174" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591143829543" />
+    <state x="1093" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1591166568413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1093" y="247" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591166568413" />
   </component>
 </project>
